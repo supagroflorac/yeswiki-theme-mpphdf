@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="{{configuration param="charset"}}">
+  <meta name="keywords" content="{{configuration param="meta_keywords"}}">
+  <meta name="description" content="{{configuration param="meta_description"}}">
+  <title>{{configuration param="wakka_name"}} : {{currentpage}}</title>
+  {{linkstyle}}
+  {{linkrss}}
+</head>
+
+<body {{parambody}}>
+  <section id="main" {{doubleclic}}>
+    {WIKINI_PAGE}
+    {{barreredaction}}
+  </section>
+  <nav id="navtop">
+    {{include page="PageMenuHaut" doubleclic="0"}}
+  </nav>
+  <header id="header">
+    <a href="./">
+      <img src="themes/mpphdf/images/logo.svg" alt="logo : trois personnages qui cultivent ensemblent"/>
+    </a>
+  </header>
+  <footer id="footer">
+    {{include page="PageFooter" doubleclic="1"}}
+  </footer>
+  {{linkjavascript}}
+</body>
+</html>

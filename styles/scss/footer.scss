@@ -1,0 +1,13 @@
+#footer {
+  background-color: $mpp-color-tertiary;
+  min-height: $mpp-min-height;
+  display: flex;
+  div.include {
+    color: white;
+    margin: auto;
+
+    a {
+      color: $mpp-color-secondary;
+    }
+  }
+}

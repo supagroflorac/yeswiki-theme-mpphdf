@@ -1,0 +1,29 @@
+@import 'vars';
+@import 'text';
+@import 'header';
+@import 'footer';
+@import 'pagePrincipale';
+@import 'navtop';
+
+* { box-sizing: border-box; }
+
+html {
+  background-color: $mpp-color-background;
+  margin: auto;
+}
+
+body {
+  align-items: stretch;
+  background: transparent;
+  display: flex;
+  flex-flow: column;
+  font-size: 16px;
+  margin: auto;
+}
+
+#header { order: 1; }
+#navtop { order: 2; }
+#catch { order: 3; }
+#values { order: 4; }
+#main, #themes { order: 5; }
+#footer { order: 6; }

@@ -1,0 +1,105 @@
+#catch, #values {
+  min-height: $mpp-min-height;
+  display: flex;
+  align-items: center;
+  padding: $mpp-padding;
+
+  div.include {
+    max-width: $mpp-max-width;
+    margin: auto;
+  }
+}
+
+#values {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(234,185,28,0.7)), url(../images/human_values.jpg) no-repeat;
+  background-size: cover;
+  color: $mpp-color-background;
+  div.include {
+    min-height: auto;
+    font-size: 1.5em;
+    max-width: calc(#{$mpp-max-width} / 1.5);
+  }
+  a, a:visited {
+    display: block;
+    color: $mpp-color-background;  
+    text-decoration: underline;
+  }
+
+  a:hover {
+    font-weight: bold;
+  }
+}
+
+#catch {
+  display: none;
+  background: $mpp-color-primary;
+  color: $mpp-color-foreground;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  div.page {
+    min-height: auto;
+    font-size: 1.5em;
+    max-width: calc(#{$mpp-max-width} / 1.5);
+  }
+}
+
+#themes {
+  background: $mpp-color-background;
+  min-height: $mpp-min-height;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $mpp-padding;
+
+  div.include {
+    ul {
+      align-items: center;
+      display: flex;
+      flex-flow: row wrap;
+      list-style: none;
+      justify-content:  center;
+      padding: 0;
+      margin: 0;
+
+      li {
+        align-items: center;
+        background: $mpp-color-tertiary;
+        border-radius: 50%;
+        color: $mpp-color-background;
+        display: flex;
+        justify-content: center;
+        height: calc((#{$mpp-min-height}) / 1.5);
+        margin: $mpp-padding;
+        width: calc((#{$mpp-min-height}) / 1.5);
+
+        a {
+          color: $mpp-color-background;
+          font-size: 2em;
+          padding: calc(#{$mpp-padding} / 2);
+          text-align: center;
+        }
+
+        a:hover {
+          color: $mpp-color-background;
+          text-decoration: none;
+
+        }
+      }
+
+      li:nth-child(1), li:nth-child(5)  {
+        background-color: $mpp-color-secondary;
+      }
+
+      li:nth-child(3)  {
+        background-color: $mpp-color-quaternary;
+      }
+
+      li:hover {
+        background: $mpp-color-primary;
+        color: $mpp-color-background;
+        transform: scale(1.1);
+      }
+    }
+  }
+}

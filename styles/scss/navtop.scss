@@ -1,0 +1,17 @@
+#navtop {
+  align-items: center;
+  background: $mpp-color-primary;
+  display: flex;
+  padding: 0 $mpp-padding;
+  div.include {
+    color: $mpp-color-background;
+    max-width: $mpp-max-width !important;
+    margin: auto;
+    a {
+      color: $mpp-color-background;
+    }
+    a:hover {
+      color: $mpp-color-primary;
+    }
+  }
+}

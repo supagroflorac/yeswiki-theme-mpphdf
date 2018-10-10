@@ -1,0 +1,32 @@
+#main {
+  padding: $mpp-padding;
+  div.page {
+    max-width: $mpp-max-width;
+    margin: auto;
+    color: $mpp-color-foreground;
+
+    h1 {
+      color: $mpp-color-secondary;
+    }
+
+    h2 {
+      color: $mpp-color-tertiary;
+    }
+
+    h3 {
+      color: $mpp-color-quaternary;
+    }
+
+    a {
+      color: $mpp-color-link;
+    }
+
+    a:hover {
+      color: $mpp-color-secondary;
+    }
+
+    a:visited {
+      color: $mpp-color-tertiary;
+    }
+  }
+}
