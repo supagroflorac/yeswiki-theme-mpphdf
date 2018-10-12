@@ -1,6 +1,5 @@
 #values {
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(234,185,28,0.7)), url(../images/human_values.jpg) no-repeat;
-  background-size: cover;
+  background: $mpp-color-primary;
   color: $mpp-color-background;
   min-height: $mpp-min-height;
   display: flex;
@@ -21,6 +20,12 @@
   a:hover {
     font-weight: bold;
   }
+}
+
+#hands {
+  background: url(../images/human_values.jpg) no-repeat;
+  min-height: $mpp-min-height;
+  background-size: cover;
 }
 
 #themes {
