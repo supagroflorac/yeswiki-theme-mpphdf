@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<plugin name="mpphdf" version="0.1" active="1">
+  <author>Florestan Bredow</author>
+  <label>mpphdf</label>
+  <desc>Actions specifiques au theme mpphdf</desc>
+</plugin>
