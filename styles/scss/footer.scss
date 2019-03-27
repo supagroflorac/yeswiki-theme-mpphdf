@@ -3,11 +3,30 @@
   min-height: $mpp-min-height;
   display: flex;
   div.include {
-    color: white;
+    color: $mpp-color-background;
     margin: auto;
+    text-align: center;
+    width: 100%;
 
     a {
-      color: $mpp-color-secondary;
+      color: $mpp-color-background;
+      text-decoration: underline;
     }
+
+    img {
+      max-width: 12em;
+      max-height: 8em;
+      width: auto;
+      height: auto;
+    }
+
+    .row {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: center;
+    }
+
+
   }
 }
