@@ -11,16 +11,6 @@
     max-width: calc(#{$mpp-max-width} / 1.5);
     margin: auto;
   }
-  /*a, a:visited {
-    display: block;
-    color: $mpp-color-background;
-    text-decoration: underline;
-    text-align: right;
-  }
-
-  a:hover {
-    font-weight: bold;
-  }*/
 
   a {
     display: block;
@@ -94,9 +84,10 @@
         color: $mpp-color-background;
         display: flex;
         justify-content: center;
-        height: calc((#{$mpp-min-height}) / 2);
+        height: calc(((#{$mpp-min-height}) / 3) * 2);
         margin: calc((#{$mpp-padding}) / 2);
-        width: calc((#{$mpp-min-height}) / 2);
+        width: calc(((#{$mpp-min-height}) / 3) * 2);
+        transition: all .5s;
 
         a {
           color: $mpp-color-background;
@@ -108,7 +99,6 @@
         a:hover {
           color: $mpp-color-background;
           text-decoration: none;
-
         }
       }
 
@@ -124,6 +114,7 @@
         background: $mpp-color-primary;
         color: $mpp-color-background;
         transform: scale(1.1);
+        transition: all .5s;
       }
     }
   }
