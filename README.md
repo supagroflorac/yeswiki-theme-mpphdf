@@ -22,3 +22,6 @@ les couleurs disponibles sont : bleu, kenny, marron, orange, rose, turquoise, ve
 ![bonhomme vert](./images/bonhomme_vert.svg) {{bonhomme couleur="vert"}}
 
 ![bonhomme violet](./images/bonhomme_violet.svg) {{bonhomme couleur="violet"}}
+
+Ajoute l'action **alerte** :
+![alerte](./images/alerte.svg) {{alerte}}
