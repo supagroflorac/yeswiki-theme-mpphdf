@@ -23,5 +23,7 @@ les couleurs disponibles sont : bleu, kenny, marron, orange, rose, turquoise, ve
 
 ![bonhomme violet](./images/bonhomme_violet.svg) {{bonhomme couleur="violet"}}
 
+Elle peut prendre un paramètre texte ex : {{bonhomme texte="Hello !"}} Une bulle sera affichée contenant le texte.
+
 Ajoute l'action **alerte** :
 ![alerte](./images/alerte.svg) {{alerte}}
