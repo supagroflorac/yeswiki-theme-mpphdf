@@ -3,6 +3,7 @@
   #main div.page {
     max-width: 50em;
     margin: auto;
+    margin-bottom: 2em;
     color: #332624; }
     #main div.page h1 {
       color: #006632; }
