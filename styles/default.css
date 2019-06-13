@@ -17,6 +17,17 @@
       color: #006632; }
     #main div.page a:visited {
       color: #68A741; }
+    #main div.page a.btn.cat {
+      width: 100%;
+      margin: 0.5em 0;
+      color: white;
+      background: #94C11C;
+      text-align: left;
+      font-size: 1.5em; }
+    #main div.page a.btn.btn-vert {
+      background: #eab91c; }
+    #main div.page a.btn.btn-orange {
+      background: #ca4e22; }
     #main div.page hr {
       background: url(../images/line.svg) center no-repeat;
       background-size: contain;

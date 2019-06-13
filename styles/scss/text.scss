@@ -30,6 +30,23 @@
       color: $mpp-color-tertiary;
     }
 
+    a.btn.cat {
+      width: 100%;
+      margin: 0.5em 0;
+      color: white;
+      background: $mpp-color-quaternary;
+      text-align: left;
+      font-size: 1.5em;
+    }
+
+    a.btn.btn-vert {
+      background: $mpp-color-primary;
+    }
+
+    a.btn.btn-orange {
+      background: $mpp-color-link;
+    }
+
     hr {
       background: url(../images/line.svg) center no-repeat;
       background-size: contain;
