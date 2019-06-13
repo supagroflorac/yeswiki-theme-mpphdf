@@ -28,5 +28,14 @@
     a:visited {
       color: $mpp-color-tertiary;
     }
+
+    hr {
+      background: url(../images/line.svg) center no-repeat;
+      background-size: contain;
+      height: 120px;
+      display:block;
+      border:0px;
+      height:25px;
+    }
   }
 }
