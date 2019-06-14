@@ -208,11 +208,15 @@
   left: -14px;
   top: 22px; }
 
-.bonhomme, .alerte {
+div.bonhomme img, img.alerte {
   float: left;
   width: 7em;
   height: auto;
   padding: 0 1em; }
+
+div.bonhomme {
+  display: inline-block;
+  margin-bottom: 1em; }
 
 @media only screen and (min-width: 992px) {
   .grid_reverse {

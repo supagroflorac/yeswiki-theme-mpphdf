@@ -17,6 +17,8 @@ if (!empty($text)) {
 }
 
 print("
-  <img class='bonhomme' src='$file' />
+<div class='bonhomme'>
+  <img src='$file' />
   $bulle
+</div>
 ");
