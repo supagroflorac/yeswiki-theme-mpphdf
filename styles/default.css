@@ -214,6 +214,14 @@
   height: auto;
   padding: 0 1em; }
 
+@media only screen and (min-width: 992px) {
+  .grid_reverse {
+    display: flex;
+    flex-flow: row; }
+    .grid_reverse div:nth-child(1) {
+      order: 2; }
+    .grid_reverse div:nth-child(2) {
+      order: 1; } }
 * {
   box-sizing: border-box; }
 

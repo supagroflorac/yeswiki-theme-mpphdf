@@ -1,0 +1,15 @@
+
+@media only screen and (min-width : 992px) {
+  .grid_reverse {
+    display: flex;
+    flex-flow: row;
+
+    div:nth-child(1) {
+      order: 2;
+    }
+
+    div:nth-child(2) {
+      order: 1;
+    }
+  }
+}
