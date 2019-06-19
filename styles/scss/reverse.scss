@@ -1,4 +1,6 @@
 
+/* Hack pour inverser les colonne sur des écrans larges*/
+
 @media only screen and (min-width : 992px) {
   .grid_reverse {
     display: flex;

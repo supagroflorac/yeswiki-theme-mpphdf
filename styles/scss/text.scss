@@ -47,6 +47,17 @@
       background: $mpp-color-link;
     }
 
+    a.btn.temoigner {
+      background: $mpp-color-link;
+      text-align: center;
+      height: 3em;
+      line-height: 2.9em;
+    }
+
+    a.btn.temoigner:hover {
+      background: $mpp-color-primary;
+    }
+
     hr {
       background: url(../images/line.svg) center no-repeat;
       background-size: contain;

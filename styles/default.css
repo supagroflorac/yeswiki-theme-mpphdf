@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #main {
   padding: 2em; }
   #main div.page {
@@ -28,6 +29,13 @@
       background: #eab91c; }
     #main div.page a.btn.btn-orange {
       background: #ca4e22; }
+    #main div.page a.btn.temoigner {
+      background: #ca4e22;
+      text-align: center;
+      height: 3em;
+      line-height: 2.9em; }
+    #main div.page a.btn.temoigner:hover {
+      background: #eab91c; }
     #main div.page hr {
       background: url(../images/line.svg) center no-repeat;
       background-size: contain;
@@ -218,6 +226,7 @@ div.bonhomme {
   display: inline-block;
   margin-bottom: 1em; }
 
+/* Hack pour inverser les colonne sur des écrans larges*/
 @media only screen and (min-width: 992px) {
   .grid_reverse {
     display: flex;
